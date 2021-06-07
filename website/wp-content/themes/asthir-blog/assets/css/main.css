@@ -1,0 +1,140 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+    font-size:16px;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    letter-spacing: inherit;
+}
+.widget form {
+    width: 100%;
+}
+header#masthead {
+    position: relative;
+}
+.asthir-blog1 .post-thumbnail {
+    display: block;
+}
+.as-blog 
+ section.widget {
+    display: block;
+    position: inherit;
+}
+.asthir-headimg {
+    width: 100%;
+    min-height: 50px;
+    max-height: 300px;
+    overflow: hidden;
+}
+.asthir-headimg.head-homeimg{
+    max-height: 600px;
+}
+.asthir-headimg img {
+    width: 100%;
+}
+.as-blog1 section.widget {
+    display: block;
+}
+
+.as-blog1 section.widget h3.widget-title {
+    position: inherit;
+    transform: rotate(0);
+    margin: 0 0 10px;
+    width: 100%;
+    background: inherit;
+    color: #000;
+}
+.as-blog1 section.widget {
+    min-height: inherit;
+}
+.asthir-shadow,
+.navigation.pagination{
+    -webkit-box-shadow: 0 0 70px rgb(0 0 0 / 11%);
+    box-shadow: 0 0 70px rgb(0 0 0 / 11%);
+    padding: 20px;
+    background: #fff;
+}
+.navigation.pagination{
+    justify-content: center;
+}
+.navigation.pagination a,.navigation.pagination span {
+    border: 1px solid #ededed;
+    padding: 5px 10px;
+}
+
+.navigation.pagination a:hover {
+    background: #ededed;
+}
+.woocommerce ul.products li.product, 
+.woocommerce-page ul.products li.product {
+    border-radius: 3px;
+}
+.woocommerce ul.products li.product a img {
+    border: 0;
+    border-radius: 0;
+    transform: scale(1);
+    overflow: hidden;
+    transition: 0.5s;
+}
+.woocommerce ul.products li.product a img:hover {
+    transform: scale(0.98);
+}
+
+.entry-footer,
+.entry-footer a {
+    background: #fff;
+}
+.entry-footer {
+    border: 1px solid #ededed;
+}
+.site-info a {
+    color: #fff;
+}
+@media screen and (max-width: 992px) {
+    .asthir-nav-logo {
+        position: relative;
+    }
+    
+    .asthir-blog-col {
+        position: inherit;
+    }
+    
+    nav#site-navigation {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .menu-main-menu-container {
+        background: #555;
+        z-index: 9999;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px){
+
+    .asthir-nav-logo .menu-main-menu-container {
+        text-align: left;
+    }
+    .asthir-nav-logo .main-navigation.text-right {
+        text-align: center !important;
+    }
+
+    .asthir-nav-logo .asthir-logotext.asthir-menulogo {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+
+
+}
+
